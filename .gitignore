@@ -1,4 +1,6 @@
 *creds.yml
 *state.json
-deploy-*.sh
+#deploy-*.sh
 .DS_Store
+cluster/cloud_configs
+cluster/vars-*.yml
