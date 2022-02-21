@@ -1,0 +1,18 @@
+networks:
+- name: ControlPlaneNetManual
+  subnets:
+  - azs:
+    - AZ1
+    cloud_properties:
+      name: VM Network
+    dns:
+    - 10.0.0.44
+    - 1.1.1.1
+    gateway: 172.20.0.1
+    range: 172.20.0.0/24
+    reserved:
+    - 172.20.0.1-172.20.0.22
+    - 172.20.0.33-172.20.0.255
+    static:
+    - 172.20.0.25
+  type: manual

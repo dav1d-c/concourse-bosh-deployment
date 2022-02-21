@@ -1,0 +1,16 @@
+azs: ["northamerica-northeast1-a", "northamerica-northeast1-b", "northamerica-northeast1-c"] 
+network_name: cp-nane-net
+web_vm_type: medium
+db_persistent_disk_type: 102400
+db_vm_type: medium
+worker_vm_type: xlarge.disk
+web_instances: 1
+worker_instances: 1
+worker_ephemeral_disk: 307200
+encryption_key: 78dc1b16d3612af46b8fc78417bc81d7
+external_url: https://ci.gcp.dav3.io
+external_host: ci.gcp.dav3.io
+#local_user: { username: ciadmin, password: 53f5ccc2871ecbdbd5f9b2ba525fa453 }
+add_local_users: [ "ciadmin:53f5ccc2871ecbdbd5f9b2ba525fa453", "slitest:3c312453c8fcc74b1d5054781038a8af", "wavefrontteam:c6305e3e9dec9941de83616d5db5a501" ]
+main_team_local_users: [ "ciadmin", "slitest", "wavefrontteam" ]
+prometheus_port: 8080
