@@ -26,4 +26,5 @@ bosh deploy \
    -o operations/secure-internal-postgres-bbr.yml \
    -o operations/backup-atc.yml \
    -o operations/worker-ephemeral-disk.yml \
+   -o operations/static-web.yml \
    concourse.yml
