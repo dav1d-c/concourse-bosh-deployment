@@ -14,7 +14,6 @@ bosh deploy \
    -o operations/credhub-tls-skip-verify.yml \
    -o operations/enable-redacting-credentials.yml \
    -o operations/encryption.yml \
-   -o operations/prometheus.yml \
    -o operations/privileged-http.yml \
    -o operations/privileged-https.yml \
    -o operations/scale.yml \
@@ -27,4 +26,9 @@ bosh deploy \
    -o operations/backup-atc.yml \
    -o operations/worker-ephemeral-disk.yml \
    -o operations/static-web.yml \
+   -o operations/update-stemcell.yml \
    concourse.yml
+
+
+# Removed Options
+#    -o operations/prometheus.yml \
