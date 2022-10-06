@@ -4,7 +4,7 @@ networks:
   - azs:
     - AZ1
     cloud_properties:
-      name: VM Network
+      name: VDS-NSX/VM-Net
     dns:
     - 10.0.0.44
     - 1.1.1.1
